@@ -2,10 +2,10 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}!
-  div
+  div(id= 'container')
     each message in messages
-      p= message.text
-      p= message.user
-      p= message.added
+      div(class= 'message-container')
+        p= message.text
+        p= message.user
+        p= message.added
   a(href="/new") Add Message

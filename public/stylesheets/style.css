@@ -4,9 +4,58 @@ body {
 }
 
 a {
+  display: block;
   color: #00B7FF;
+  text-align: center;
+  margin: 50px auto 50px auto;
 }
 
 h1 {
 	text-align: center;
+	font-size: 3em;
+}
+
+.message-container {
+	padding: 10px;
+	-webkit-box-shadow: -1px -1px 20px -5px rgba(0,0,0,0.66);
+	-moz-box-shadow: -1px -1px 20px -5px rgba(0,0,0,0.66);
+	box-shadow: -1px -1px 20px -5px rgba(0,0,0,0.66);
+	border-radius: 10px;
+	width: 400px;
+	margin: 50px auto 50px auto;
+	text-align: right;
+}
+
+.input-container {
+	text-align: left;
+}
+
+#submit {
+	width: 100px;
+	margin-top: 20px;
+}
+
+p {
+	text-align: left;
+}
+
+div {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+	margin: auto;
+	width: 200px;
+	border-radius: 10px;
+	-webkit-box-shadow: -1px -1px 20px -5px rgba(0,0,0,0.66);
+	-moz-box-shadow: -1px -1px 20px -5px rgba(0,0,0,0.66);
+	box-shadow: -1px -1px 20px -5px rgba(0,0,0,0.66);
+	padding: 30px 40px 30px 30px;
+}
+
+input {
+	display: block;
+	margin: 5px auto 10px auto;
+	width: 200px;
 }
